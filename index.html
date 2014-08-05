@@ -1,10 +1,9 @@
 <!-- Inspiration from "chin.io", jeff.yt, & @mossberg on github -->
+
+{% include ./html/header.html %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
-<!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->  
-<!--#include virtual="./html/header.html" --> 
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +22,9 @@
   </head>
   <div class = "container">
   <body>
+    <script>
+    $("#header").load("./html/header.html");
+    </script>  
     <h1>dawsonbotsford@gmail.com</h1>
     <p><code> //Sometimes I code </code><p>
     <br>
