@@ -9,10 +9,26 @@ p {
   font-weight: 800;
 }              
 body {        
-  background: url(../images/pixel_weave.png) repeat 0 0;      
-  color: #663399;
+  color: #ececec;
   text-align: center;
 }
 
+.background{ 
+  background:url(../images/pixel_weave.png) repeat 0 0;      
+	background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.layer{ 
+    position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+	background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+}
 .navbar{
 }
