@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "http://feeds.feedburner.com/TechCrunch/startups",
+        "https://dawsonbotsford.wordpress.com/wp-rss2.php",
         
         {
         // how many entries do you want?
@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
         // the effect, which is used to let the entries appear
         // default: 'show'
         // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
-        effect: 'slideFastSynced',
+        effect: 'slideSynced',
         
         // outer template for the html transformation
         // default: "<ul>{entries}</ul>"
@@ -54,6 +54,5 @@ jQuery(document).ready(function($) {
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "dawsonbotsford", selector: "#ghfeed" });
-
 
 });
