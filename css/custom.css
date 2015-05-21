@@ -5,3 +5,8 @@
   display: flex;
   align-items: center;
 }
+.boldlink {
+  text-decoration: none;
+  font-weight: bold;
+  text-color: #434343;
+}
