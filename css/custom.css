@@ -1,6 +1,6 @@
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 100%; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
@@ -9,4 +9,9 @@
   text-decoration: none;
   font-weight: bold;
   text-color: #434343;
+}
+#larger-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
 }
