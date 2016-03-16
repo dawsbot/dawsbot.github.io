@@ -1,6 +1,6 @@
-# inf
+# Dawson Botsford
 
-> JavaScript's quick-print for variable **inf**ormation
+> JavaScript hacker and hackathon enthusiast
 
 <br>
 
@@ -11,17 +11,33 @@
   <table>
     <thead>
       <tr>
-        <th>Linux & OSX</th>
-        <th>Windows</th>
+        <th>GitHub</th>
+        <th>Twitter</th>
+        <th>LinkedIn</th>
+        <th>Facebook</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td align='center'>
-          <a href='https://travis-ci.org/dawsonbotsford/inf'><img src='https://api.travis-ci.org/dawsonbotsford/inf.svg?branch=master'></a>
+        <a href="https://github.com/dawsonbotsford">
+        <img class="socialIcon" src="./img/socialIcons/Github.png" alt="Github icon">
+      </a>
         </td>
         <td align='center'>
-          <a href='https://ci.appveyor.com/project/dawsonbotsford/inf'><img src='https://ci.appveyor.com/api/projects/status/3tqkm56t5osoffb9/branch/master?svg=true'></a>
+          <a href="https://twitter.com/dawsonbotsford">
+          <img class="socialIcon" src="./img/socialIcons/Twitter.png" alt="Twitter icon">
+        </a>
+        </td>
+        <td>
+        <a href="https://linkedIn.com/in/dawsonbotsford">
+        <img class="socialIcon" src="./img/socialIcons/LinkedIn.png" alt="LinkedIn icon">
+        </a>
+        </td>
+        <td>
+        <a href="https://facebook.com/dawsonbotsford">
+        <img class="socialIcon" src="./img/socialIcons/Facebook.png" alt="Facebook icon">
+        </a>
         </td>
       </tr>
     </tbody>
@@ -98,6 +114,3 @@ The alternative is to `console.log` your variable every time you need to get it'
 MIT © [Dawson Botsford](http://dawsonbotsford.com)
 
 <br>
-
----
-If you like this, star it. If you want to follow me, follow me.
