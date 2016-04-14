@@ -1,12 +1,15 @@
 # Dawson Botsford
 
-> JavaScript hacker and hackathon enthusiast
+> Node.js hacker and hackathon enthusiast
 
 <br>
 
 [![npm version](https://img.shields.io/npm/v/inf.svg)](https://www.npmjs.com/package/inf)
-[![npm download count](http://img.shields.io/npm/dm/inf.svg?style=flat)](http://npmjs.org/inf)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
+## Contact Information
+| phone |
+|------|
+| 865-804-9305 |
 
   <table>
     <thead>
