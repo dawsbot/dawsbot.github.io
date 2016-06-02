@@ -1,51 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-  <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-  <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-  <head>
-    <title>Dawson Botsford | Software Developer</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Dawson Botsford. Coder and entrepreneur">
-    <meta name="author" content="Dawson Botsford">
-    <link rel="shortcut icon" href="favicon.ico">
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Dawson Botsford | Software Developer</title>
 
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/custom.css" />
-    <script type="text/javascript" src="js/jquery.min.js" ></script>
-    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6" align="center">
-        <img id="myFace" src="./img/CartoonDawson.jpg" alt="A picture of my face" />
-        <br>
-        <code id="myCode">hello world</code>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6" align="center">
-        <a href="https://github.com/dawsonbotsford">
-          <img class="socialIcon" src="./img/socialIcons/Github.png" alt="Github icon"/>
-        </a>
-        <a href="https://twitter.com/dawsonbotsford">
-          <img class="socialIcon" src="./img/socialIcons/Twitter.png" alt="Twitter icon"/>
-        </a>
-        <a href="https://linkedIn.com/in/dawsonbotsford">
-          <img class="socialIcon" src="./img/socialIcons/LinkedIn.png" alt="LinkedIn icon"/>
-        </a>
-        <a href="https://facebook.com/dawsonbotsford">
-          <img class="socialIcon" src="./img/socialIcons/Facebook.png" alt="Facebook icon"/>
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6" align="center">
-        <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@dawsonbotsford">Dawson Botsford</a>
-      </div>
-    </div>
-  </body>
-  </html>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website of Dawson Botsford. Coder and entrepreneur">
+  <meta name="author" content="Dawson Botsford">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/github-markdown.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <style>
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="markdown-body">
+
+    <h1>Dawson Botsford</h1>
+    <img class="headshot" src="https://avatars0.githubusercontent.com/u/3408480?v=3&s=460">
+
+    <br>
+    <br>
+    <br>
+    <blockquote>
+      <p>Node.js hacker and hackathon enthusiast</p>
+    </blockquote>
+
+    <br>
+
+    <h2>Contact Information</h2>
+
+    <a href="https://github.com/dawsonbotsford">
+      <img class="socialIcon" src="./img/socialIcons/Github.png" alt="Github icon">
+    </a>
+    <a href="https://twitter.com/dawsonbotsford">
+      <img class="socialIcon" src="./img/socialIcons/Twitter.png" alt="Twitter icon">
+    </a>
+    <a href="https://linkedIn.com/in/dawsonbotsford">
+      <img class="socialIcon" src="./img/socialIcons/LinkedIn.png" alt="LinkedIn icon">
+    </a>
+    <a href="https://facebook.com/dawsonbotsford">
+      <img class="socialIcon" src="./img/socialIcons/Facebook.png" alt="Facebook icon">
+    </a>
+    <br>
+    <br>
+    Email: <p style="display:inline" id="email"></p>
+
+    <br>
+    <br>
+    <br>
+    <h2>
+      Read more
+    </h2>
+    <a href="https://github.com/dawsonbotsford/dawsonbotsford.github.io">github.com/dawsonbotsford/bdawsonbotsford.github.io</a>
+
+    <br>
+    <br>
+    <br>
+    <h2>
+      License
+    </h2>
+    <span>
+      MIT © <p style="display:inline" id="rainge"></p> Dawson Botsford
+    </span>
+
+
+  </article>
+</body>
+<script type="text/javascript" src="js/rainge.js"></script>
+<script type="text/javascript">
+  //set copyright year
+  document.getElementById('rainge').innerHTML = rainge(2012);
+
+  //dynamically generate mailto address
+  var emailAddress = "dawson" + "botsford" + "@" + "gmail" + "." + "com";
+  var emailLink = document.createElement("a");
+
+  emailLink.innerHTML = emailAddress;
+  emailLink.setAttribute("href", "mailto:" + emailAddress);
+  document.getElementById("email").appendChild(emailLink);
+</script>
+</html>
