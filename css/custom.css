@@ -1,17 +1,9 @@
-body {
-    background-color: white;
-    margin-top: 50px;
-    padding: 50px;
-    display: block;
-}
-#myCode {
-  font-size: 26px;
-}
-#myFace {
-  width: 450px;
-}
 .socialIcon {
   width: 80px;
   margin: 10px;
-  padding-bottom: 100px;
 }
+.headshot {
+  width: 230px;
+  border-radius: 6px !important;
+}
+#container p { display: inline }
