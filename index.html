@@ -35,8 +35,21 @@
     <blockquote>
       <p>Node.js hacker and hackathon enthusiast</p>
     </blockquote>
+    Living in (✈ || San Francisco, CA).
 
-    <br>
+    <hr>
+    <h2>Recent Projects</h2>
+
+    <ul>
+      <li><a href="https://github.com/dawsonbotsford/skrub" >skrub</a> - Irreversible file deletion on every OS
+
+      <br>
+      <li><a href="https://github.com/dawsonbotsford/vimrcBuilder" >vimrcBuilder</a> - vimrc creation made easy
+
+      <br>
+      <li><a href="https://github.com/dawsonbotsford/cryptoVal" >cryptoVal</a> - SMS-based cryptocurrency client (Bitcoin, LiteCoin, etc.)
+    </ul>
+    <hr>
 
     <h2>Contact Information</h2>
 
@@ -56,36 +69,23 @@
     <br>
     Email: <p style="display:inline" id="email"></p>
 
-    <br>
-    <br>
-    <br>
-    <h2>
-      Read more
-    </h2>
-    <a href="https://github.com/dawsonbotsford/dawsonbotsford.github.io">github.com/dawsonbotsford/bdawsonbotsford.github.io</a>
-
-    <br>
-    <br>
-    <br>
+    <hr>
     <h2>
       License
     </h2>
-    <span>
       MIT © <p style="display:inline" id="rainge"></p> Dawson Botsford
-    </span>
-
-
+      <br>(The year range in the line above was built dynamically with my mini-module <a href="https://github.com/dawsonbotsford/rainge">rainge</a>)
   </article>
 </body>
 <script type="text/javascript" src="js/rainge.js"></script>
 <script type="text/javascript">
+
   // set copyright year
   document.getElementById('rainge').innerHTML = rainge(2012);
 
   // dynamically generate mailto address
   var emailAddress = "dawson" + "botsford" + "@" + "gmail" + "." + "com";
   var emailLink = document.createElement("a");
-
   emailLink.innerHTML = emailAddress;
   emailLink.setAttribute("href", "mailto:" + emailAddress);
   document.getElementById("email").appendChild(emailLink);

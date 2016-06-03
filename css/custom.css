@@ -7,3 +7,6 @@
   border-radius: 6px !important;
 }
 #container p { display: inline }
+hr {
+  margin-top: 90px !important;
+}
