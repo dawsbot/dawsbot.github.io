@@ -1,3 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "system";
+  font-size: 1.08em;
+  padding: 60px 140px 60px 140px;
+}
+code {
+    font-family: SourceCodePro-Medium;
+    color: black;
+    background-color: white;
+    padding: 2px 10px 2px 10px;
+}
+hr {
+  margin-top: 80px !important;
+}
 .socialIcon {
   width: 80px;
   margin: 10px;
@@ -11,30 +27,12 @@
   background-color: white;
 }
 a {
-  font-style: italic;
   font-weight: 900;
   color: white;
 }
 #container p { display: inline }
-hr {
-  margin-top: 90px !important;
-}
-body {
-  font-family: "system";
-  padding: 40px 90px 40px 90px;
-}
 @font-face {
   font-family: SourceCodePro-Medium;
   src: url(SourceCodePro-Medium.ttf);
 }
 
-body {
-  background-color: black;
-  color: white;
-}
-code {
-    font-family: SourceCodePro-Medium;
-    color: black;
-    background-color: white;
-    padding: 2px 10px 2px 10px;
-}
