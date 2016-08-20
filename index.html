@@ -10,17 +10,14 @@
   <meta name="author" content="Dawson Botsford">
   <link rel="shortcut icon" href="favicon.ico">
 
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body>
   <article>
 
     <h1>Hi, I'm Dawson Botsford</h1>
-    <p>I am <i style="display:inline" id="days"></i> days old</p>
-    <p>and <i style="display:inline" id="hours"></i> hours old</p>
-    <p>and <i style="display:inline" id="minutes"></i> minutes old</p>
-    <p>and <i style="display:inline" id="seconds"></i> seconds old</p>
+    <p>I am <i style="display:inline" id="seconds"></i> seconds old</p>
     <img class="headshot" src="https://avatars0.githubusercontent.com/u/3408480?v=3&s=460">
 
     <br>
@@ -47,18 +44,20 @@
 
     <h2>Contact Information</h2>
 
-    <a href="https://github.com/dawsonbotsford">
-      <img class="socialIcon" src="./img/socialIcons/Github.png" alt="Github icon">
-    </a>
-    <a href="https://twitter.com/dawsonbotsford">
-      <img class="socialIcon" src="./img/socialIcons/Twitter.png" alt="Twitter icon">
-    </a>
-    <a href="https://linkedIn.com/in/dawsonbotsford">
-      <img class="socialIcon" src="./img/socialIcons/LinkedIn.png" alt="LinkedIn icon">
-    </a>
-    <a href="https://facebook.com/dawsonbotsford">
-      <img class="socialIcon" src="./img/socialIcons/Facebook.png" alt="Facebook icon">
-    </a>
+      <div id=socialIconRow>
+        <a href="https://github.com/dawsonbotsford">
+          <img class="socialIcon" src="./img/socialIcons/Github.png" alt="Github icon">
+        </a>
+        <a href="https://twitter.com/dawsonbotsford">
+          <img class="socialIcon" src="./img/socialIcons/Twitter.png" alt="Twitter icon">
+        </a>
+        <a href="https://linkedIn.com/in/dawsonbotsford">
+          <img class="socialIcon" src="./img/socialIcons/LinkedIn.png" alt="LinkedIn icon">
+        </a>
+        <a href="https://facebook.com/dawsonbotsford">
+          <img class="socialIcon" src="./img/socialIcons/Facebook.png" alt="Facebook icon">
+        </a>
+      </div>
     <br>
     <br>
     Email: <p style="display:inline" id="email"></p>
@@ -79,18 +78,14 @@
 
   var now = moment();
   var then = moment('0113#4494', 'MMDD#44YY');
-  document.getElementById('days').innerHTML = now.diff(then, 'days');
-  document.getElementById('hours').innerHTML = now.diff(then, 'hours');
-  document.getElementById('minutes').innerHTML = now.diff(then, 'minutes');
   document.getElementById('seconds').innerHTML = now.diff(then, 'seconds');
   window.setInterval(function() {
     now = moment();
     document.getElementById('seconds').innerHTML = now.diff(then, 'seconds');
-    document.getElementById('minutes').innerHTML = now.diff(then, 'minutes');
   }, 1000);
 
   // dynamically generate mailto address (may or may not help with malicious scrapers)
-  var emailAddress = "dawson" + "botsford" + "@" + "gmail" + "." + "com";
+  var emailAddress = "Dawson" + "Botsford" + "@" + "gmail" + "." + "com";
   var emailLink = document.createElement("a");
   emailLink.innerHTML = emailAddress;
   emailLink.setAttribute("href", "mailto:" + emailAddress);
