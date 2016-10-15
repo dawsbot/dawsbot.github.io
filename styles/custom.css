@@ -2,17 +2,17 @@ body {
   background-color: black;
   color: white;
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.08em;
+  font-weight: 100;
   padding: 60px 210px 60px 210px;
 }
 a {
-  font-weight: 900;
+  font-weight: 800;
   color: white;
 }
 blockquote p:before {
   content: "// ";
 }
-blockquote p{
+blockquote p {
     font-family: SourceCodePro-Medium;
     color: black;
     background-color: white;
@@ -20,7 +20,6 @@ blockquote p{
 }
 blockquote p a {
   color: black;
-
 }
 hr {
   margin-top: 80px !important;
@@ -42,4 +41,6 @@ hr {
   font-family: SourceCodePro-Medium;
   src: url(SourceCodePro-Medium.ttf);
 }
-
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+}

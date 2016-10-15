@@ -27,7 +27,7 @@ Spell check for markdown</p>
 <p>So you code. Or maybe you want to code. Either way, interacting with your computer quickly is an important part.
 If you are axing your time away with inefficiency, you won't have as much time to focus on what matters.</p>
 
-<h4 id="theterminal">The terminal</h4>
+<h2 id="theterminal">The terminal</h2>
 
 <p>It's a scary place for some - a simple and friendly UI for others.</p>
 
@@ -35,6 +35,8 @@ If you are axing your time away with inefficiency, you won't have as much time t
 
 <p>The terminal above it outfitted quite basically using iTerm2 on the mac and oh-my-zsh.
 It's a setup covered in <a href="TODO: LINK HERE">multiple</a> guides, so I won't explain that.</p>
+
+<h3 id="aliases">Aliases</h3>
 
 <p>When typing in your terminal, you enter a ton of different commands.
 And these commands can be shortened using aliases.
@@ -44,16 +46,18 @@ Think of aliases like functions - they are shorthand for far more functionality.
 
 <p>I work with node modules nearly all day, so I've optimized for that in my aliases.</p>
 
-<p><code>ni</code> -> <code>npm install</code> <br />
-<code>nis</code> -> <code>npm install --save</code> <br />
-<code>nid</code> -> <code>npm install --save-dev</code> <br />
-<code>nig</code> -> <code>npm install --global</code>  </p>
+<pre><code>ni -&gt; npm install
+nis -&gt; npm install --save
+nid -&gt; npm install --save-dev
+nig -&gt; npm install --global
+</code></pre>
 
-<p>But then sometimes you need to delete a module:  </p>
+<p>But then sometimes you need to delete a module:</p>
 
-<p><code>nuis</code> -> <code>npm uninstall --save</code> <br />
-<code>nuid</code> -> <code>npm uninstall --save-dev</code> <br />
-<code>nuig</code> -> <code>npm uninstall --global</code>  </p>
+<pre><code>nuis -&gt; npm uninstall --save
+nuid -&gt; npm uninstall --save-dev
+nuig -&gt; npm uninstall --global
+</code></pre>
 
 <p>These are just ideas for you though, perhaps you do server admin often and you need to <code>cd</code> into <code>/var/www</code>.</p>
 
@@ -67,7 +71,7 @@ Think of aliases like functions - they are shorthand for far more functionality.
     </h2>
     MIT © <p style="display:inline" id="rainge"></p> Dawson Botsford
 </body>
-<script type="text/javascript" src="js/rainge.js"></script>
+<script type="text/javascript" src="../js/vendor/rainge.js"></script>
 <script type="text/javascript">
   // set copyright year
   document.getElementById('rainge').innerHTML = rainge(2012);
