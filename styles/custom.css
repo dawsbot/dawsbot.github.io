@@ -12,14 +12,8 @@ a {
 blockquote p:before {
   content: "// ";
 }
-blockquote p {
-    font-family: SourceCodePro-Medium;
-    color: black;
-    background-color: #ecf0f1white;
+blockquote i {
     padding: 2px 10px 2px 10px;
-}
-blockquote p a {
-  color: black;
 }
 hr {
   margin-top: 80px !important;
@@ -30,7 +24,9 @@ hr {
 }
 .headshot {
   width: 230px;
-  border: 16px solid #ecf0f1;
+  border: 1px solid #ecf0f1;
+  outline-offset: 4px;
+  outline: 2px solid #ecf0f1;
 }
 #socialIconRow {
   display: inline-block;
