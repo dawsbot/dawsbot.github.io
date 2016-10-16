@@ -1,15 +1,11 @@
-TODO:
-Word wrap for markdown
-Spell check for markdown
-
-# Become a Faster Developer Pt. 1
+# Become a Faster Developer Part 1
 
 > Part 1: Terminal Aliases
 
 So you code. Or maybe you want to code. Either way, interacting with your computer quickly is an important part.
 If you are axing your time away with inefficiency, you won't have as much time to focus on what matters.
 
-## The terminal
+## The Terminal
 
 It's a scary place for some - a simple and friendly UI for others.
 
